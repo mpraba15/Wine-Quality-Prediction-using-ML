@@ -25,8 +25,8 @@ Uses the training set for fitting.
 Predicts test set labels.
 Evaluates performance using:
 
-Accuracy Score
-Classification Report
+Accuracy Score,
+Classification Report,
 Confusion Matrix
 
 ## Visualization:
