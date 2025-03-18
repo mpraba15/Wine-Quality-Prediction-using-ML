@@ -6,21 +6,25 @@ This project demonstrates the implementation of the K-Nearest Neighbors (KNN) al
 ## Dataset Loading:
 
 Uses sklearn.datasets.load_wine() to load the Wine dataset.
+
 Converts it into a Pandas DataFrame for better visualization.
 ## Data Preprocessing:
 
 Splits data into training and testing sets (train_test_split).
+
 Applies feature scaling using StandardScaler().
 
 ## KNN Model Training:
 
 Trains a KNeighborsClassifier with n_neighbors=3.
+
 Uses the training set for fitting.
 
 ## Predictions & Evaluation:
 
 Predicts test set labels.
 Evaluates performance using:
+
 Accuracy Score
 Classification Report
 Confusion Matrix
